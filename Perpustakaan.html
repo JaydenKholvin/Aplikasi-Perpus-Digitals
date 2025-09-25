@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Perpustakaan.css">
+    <script src="Perpustakaan.js"></script>
+    <title>Aplikasi Perpustakaan Digital</title>
+    <link rel="icon" type="image/x-icon" href="Buku-removebg-preview.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="bungkus">
+            <div class="skibidi">
+            <div class="firstname">
+                <p>Library</p>
+            </div>
+            <div class="lastname">
+                <p>Gu</p>
+            </div>
+            </div>
+            <ul>
+                <li><a>Beranda</a></li>
+                <li><a>Tabel</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </nav>
+        <marquee>Welcome To Perpustakaan Agu - Jl. Nusa Indah B-6</marquee>
+        <div class="maincontainer">
+            <div class="container">
+                <div class="Container1">
+                    <p>Judul Buku : </p>
+                    <input type="text" id="judul" placeholder="Masukkan Judul Buku Yang Ingin Ditambahkan"><br>
+                    <p>Nama Penulis : </p>
+                    <input type="text" id="penulis" placeholder="Masukkan Penulis Dari Buku Yang Ingin Ditambahkan"><br>
+                    <p>Tahun Terbit : </p>
+                    <input type="text" id="tahun" placeholder="Masukkan Tahun Terbit Buku Yang Ingin Ditambahkan"><br>
+                    <button type="button" id="tambahBuku" onclick="tambahBuku()">Tambah Buku</button>
+                </div>
+                <div class="Container2">
+                    <h2>Cari Buku</h2><br>
+                    <input type="text" id="cariBuku" placeholder="Masukkan Judul Buku"><br>
+                    <button type="button" id="cari" onclick="cariBuku()">Cari</button>
+                </div>
+                <div class="Container3">
+                    <button type="button" id="hapusBuku" onclick="hapusBuku()">Hapus Buku Terakhir</button>
+                </div>
+            </div>
+            <div class="informasi">
+                <h4>Atmin Perpustakaan</h4><br>
+                <hr>
+                <div class="statistikitem">
+                    <p>Jayden</p>
+                    <img src="Jayden.jpg" alt="Jayden">
+                </div>
+                <div class="statistikitem">
+                    <p>Jasson</p>
+                    <img src="Jasson.png" alt="Jasson">
+                </div>
+            </div>
+        </div>
+        <div class="table">
+            <h1>Daftar Buku</h2>
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Judul</th>
+                        <th>Penulis</th>
+                        <th>Tahun</th>
+                    </tr>
+                </thead>
+                <tbody id="hasil"></tbody>
+            </table>
+        </div>
+        <div class="copyright">
+            <div class="jaydenigwa">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span class="Username"> Jaydenkholvin</span>
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                <span class="phone1"> 08226872009</span>
+            </div>
+            <div class="jassonigwa">
+                 <i class="fa fa-instagram" aria-hidden="true"></i>
+                 <span class="Username"> Albertot_1</span>
+                 <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                 <span class="phone"> 085278105151</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

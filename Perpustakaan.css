@@ -1,0 +1,264 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", "Century Gothic", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    align-items: flex-start;
+}
+
+.bungkus {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 10px 0 10px 0;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    padding: 0 10px 0 0;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+a {
+    cursor: pointer;
+}
+
+.skibidi {
+    display: flex;
+    margin-right: auto;
+    padding: 0 0 0 20px;
+}
+
+.firstname {
+    color: white;
+}
+
+.lastname {
+    color: white;
+}
+
+.maincontainer {
+    display: grid;
+    grid-template-columns: 2fr 300px;
+    width: 100%;
+    gap: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    align-items: stretch;
+    flex: 1;
+}
+
+.informasi {
+    flex: none;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.informasi h4 {
+    color: #FF8C00;
+    margin: 0 0 10px 0;
+}
+
+.informasi hr {
+    border: 1px solid #FF8C00;
+    margin: 0 0 15px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: auto;
+    font-weight: bold;
+}
+
+.Container1, .Container2, .Container3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.Container1 p {
+    margin: 0 0 5px 0;
+}
+
+.statistikitem {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    border-left: 4px solid #FF8C00;
+    flex: 1;
+}
+
+.statistikitem p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.statistikitem img {
+    width: 100%;
+    max-height: 212px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    margin: 30px auto;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.table h1 {
+    margin: 40px 0 20px 0;
+    color: #FF8C00;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.table table, th, td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+
+.table th {
+    background-color: #FF8C00;
+    color: white;
+}
+
+tbody {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+tbody tr:hover {
+    background-color: #e8e8e8;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.Container1 button, .Container2 button, .Container3 button {
+    color: white;
+    background-color: #FF8C00;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: orange;
+    transition: all 0.3s ease;
+}
+
+marquee {
+    background-color: lightgrey;
+    padding: 8px;
+    margin: 0 0 20px 0;
+    color: black;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: lightgray;
+    padding: 20px 0 20px;
+    margin: 20px 0 0 0;
+}
+
+.jaydenigwa, .jassonigwa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    margin: 0 0 0 20px;
+}
+
+.jaydenigwa {
+    border-left: 2px solid black;
+    padding: 0 20px 0 20px;
+    border-right: 2px solid black;
+}
+
+.jassonigwa {
+    border-right: 2px solid black;
+    padding: 0 20px 0 20px;
+    border-left: 2px solid black;
+}
+
+.jaydenigwa i, .jassonigwa i {
+}
+
+.jaydenigwa span, .jassonigwa span {
+    display: inline-block;
+}
+
+
+
+
+
